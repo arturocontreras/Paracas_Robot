@@ -1,0 +1,16 @@
+%implements s1_b0_az0oj_0_Outputs "C"
+
+%function Outputs(block, system) Output
+%assign tlcOutputsFcnOfS0B0 = OpaqueTLCBlockFcn("Outputs", 0, 0)
+%assign tlcOutputsFcnOfS0B1 = OpaqueTLCBlockFcn("Outputs", 0, 1)
+
+%<SLibCG_SetBOV(2, 0, 1, 1, "", -1, "", 0, "%<SLibCG_SE(SLibCGIR_PV(0, 0, 0, 1, "", -1, "", 0))> * %<SLibCG_SE(SLibCG_BOV(7, 0, 1, 1, "", -1, "", 0))>")>\
+
+%<tlcOutputsFcnOfS0B0>\
+
+%<tlcOutputsFcnOfS0B1>\
+
+%<SLibCG_SetBOV(6, 0, 1, 1, "", -1, "", 0, "%<SLibCG_SE(SLibCGIR_PV(1, 0, 0, 1, "", -1, "", 0))> * %<SLibCG_SE(SLibCG_BOV(5, 0, 1, 1, "", -1, "", 0))>")>\
+
+%<SLibCG_SetBOV(7, 0, 1, 1, "", -1, "", 0, "%<SLibCG_SE(SLibCG_BOV(1, 0, 1, 1, "", -1, "", 0))> - %<SLibCG_SE(SLibCG_BOV(6, 0, 1, 1, "", -1, "", 0))>")>\
+%endfunction

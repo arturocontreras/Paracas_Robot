@@ -1,0 +1,45 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'ACS758_100A.LYT'.
+CADCAM generated at 11:23:09 on domingo, 11 de octubre de 2015.
+
+File List
+---------
+Top Copper              : ACS758_100A - CADCAM Top Copper.TXT
+Bottom Copper           : ACS758_100A - CADCAM Bottom Copper.TXT
+Top Silk Screen         : ACS758_100A - CADCAM Top Silk Screen.TXT
+Bottom Silk Screen      : ACS758_100A - CADCAM Bottom Silk Screen.TXT
+Top Solder Resist       : ACS758_100A - CADCAM Top Solder Resist.TXT
+Bottom Solder Resist    : ACS758_100A - CADCAM Bottom Solder Resist.TXT
+Top SMT Paste Mask      : ACS758_100A - CADCAM Top SMT Paste Mask.TXT
+Bottom SMT Paste Mask   : ACS758_100A - CADCAM Bottom SMT Paste Mask.TXT
+Drill                   : ACS758_100A - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height
+
+D10	CIRCLE	D=5.08mm                                    DRAW
+D11	SQUARE	S=2.03mm                                    FLASH
+D12	CIRCLE	D=7.62mm                                    FLASH
+D13	SMT	W=6.98mm              H=6.98mm              FLASH
+D14	CIRCLE	D=0.2mm                                     DRAW
+D15	CIRCLE	D=0.76mm                                    DRAW
+D16	SMT	W=2.54mm              H=2.54mm              FLASH
+D17	CIRCLE	D=8.64mm                                    FLASH
+D18	SMT	W=7.49mm              H=7.49mm              FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	1.02mm (0-15)
+T02	2.03mm (0-15)
+
+
+[END OF FILE]

@@ -1,0 +1,10 @@
+%implements s1_b0_az0oj_0_Start "C"
+
+%function Start(block, system) Output
+%assign tlcStartFcnOfS0B0 = OpaqueTLCBlockFcn("Start", 0, 0)
+%assign tlcStartFcnOfS0B1 = OpaqueTLCBlockFcn("Start", 0, 1)
+
+%<tlcStartFcnOfS0B0>\
+
+%<tlcStartFcnOfS0B1>\
+%endfunction

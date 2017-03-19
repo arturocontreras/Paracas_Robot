@@ -1,0 +1,12 @@
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.pdb
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\obj\Debug\Robot Paracas_GE5.csprojResolveAssemblyReference.cache
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.RP.resources
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\obj\Debug\Robot Paracas_GE5.csproj.GenerateResource.Cache
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE5\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE6\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE6\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\Robot Paracas_GE6\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb

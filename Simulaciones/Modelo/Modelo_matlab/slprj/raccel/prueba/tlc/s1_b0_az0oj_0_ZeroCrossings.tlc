@@ -1,0 +1,7 @@
+%implements s1_b0_az0oj_0_ZeroCrossings "C"
+
+%function ZeroCrossings(block, system) Output
+%assign tlcZeroCrossingsFcnOfS0B1 = OpaqueTLCBlockFcn("ZeroCrossings", 0, 1)
+
+%<tlcZeroCrossingsFcnOfS0B1>\
+%endfunction

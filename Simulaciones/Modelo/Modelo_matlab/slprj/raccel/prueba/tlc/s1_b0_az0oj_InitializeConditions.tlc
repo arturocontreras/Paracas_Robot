@@ -1,0 +1,8 @@
+%implements s1_b0_az0oj_InitializeConditions "C"
+
+%function InitializeConditions(block, system) Output
+
+%if !SLibCGSysFcnIsEmptyForTid(CompiledModel.System[0], "Initialize",0)
+prueba_Synthesized_Atomic_Subsystem_For_Alg_Loop_1_Init();
+%endif
+%endfunction

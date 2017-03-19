@@ -1,0 +1,9 @@
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.pdb
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\obj\Debug\RP_V2.csprojResolveAssemblyReference.cache
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.RP.resources
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.Properties.Resources.resources
+C:\Users\ARTURO\Documents\Visual Studio 2013\Projects\RP_V2\WindowsFormsApplication9\obj\Debug\RP_V2.csproj.GenerateResource.Cache

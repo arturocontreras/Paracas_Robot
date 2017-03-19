@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0FFAD67D-6087-4F2C-89E2-E04D74A4BB07}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication9</RootNamespace>
+    <AssemblyName>WindowsFormsApplication9</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TestObject.cs" />
+    <Compile Include="RP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RP.Designer.cs">
+      <DependentUpon>RP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="RP.resx">
+      <DependentUpon>RP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page3_img11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\índice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phsensor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temperature.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="map_tarea.html" />
+    <Content Include="map_tarea.js" />
+    <None Include="Resources\RP_campo.jpg" />
+    <None Include="Resources\RP_campo2.jpg" />
+    <None Include="Resources\Paomedia-Small-N-Flat-Sign-right.ico" />
+    <None Include="Resources\Hopstarter-Soft-Scraps-Button-Previous.ico" />
+    <None Include="Resources\Hopstarter-Soft-Scraps-Button-Next.ico" />
+    <None Include="Resources\Paomedia-Small-N-Flat-Sign-left.ico" />
+    <None Include="Resources\Iconshock-Real-Vista-Mail-Robot.ico" />
+    <None Include="Resources\right.png" />
+    <None Include="Resources\Custom-Icon-Design-Flatastic-1-Up.ico" />
+    <None Include="Resources\Custom-Icon-Design-Flatastic-1-Down.ico" />
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Download.ico" />
+    <None Include="Resources\Iconshow-Button-Design-Pack-07-Up.ico" />
+    <None Include="Resources\electrovalve.jpg" />
+    <None Include="Resources\motor pump.jpg" />
+    <None Include="Resources\motor1.jpg" />
+    <None Include="Resources\calibration_imu.jpg" />
+    <Content Include="Resources\map_tarea.html" />
+    <Content Include="Resources\tracking.html" />
+    <Content Include="tracking.html" />
+    <Content Include="tracking.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

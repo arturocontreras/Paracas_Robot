@@ -1,0 +1,17 @@
+%implements s1_b0_az0oj_Start "C"
+
+%function Start(block, system) Output
+%assign tlcStartFcnOfS1B0 = OpaqueTLCBlockFcn("Start", 1, 0)
+%assign tlcStartFcnOfS1B5 = OpaqueTLCBlockFcn("Start", 1, 5)
+%assign tlcStartFcnOfS1B6 = OpaqueTLCBlockFcn("Start", 1, 6)
+
+%<tlcStartFcnOfS1B0>\
+
+%if !SLibCGSysFcnIsEmptyForTid(CompiledModel.System[0], "Start",0)
+prueba_Synthesized_Atomic_Subsystem_For_Alg_Loop_1_Start();
+%endif
+
+%<tlcStartFcnOfS1B5>\
+
+%<tlcStartFcnOfS1B6>\
+%endfunction

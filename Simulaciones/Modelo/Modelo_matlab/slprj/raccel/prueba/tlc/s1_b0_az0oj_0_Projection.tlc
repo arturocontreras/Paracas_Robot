@@ -1,0 +1,7 @@
+%implements s1_b0_az0oj_0_Projection "C"
+
+%function Projection(block, system) Output
+%assign tlcProjectionFcnOfS0B1 = OpaqueTLCBlockFcn("Projection", 0, 1)
+
+%<tlcProjectionFcnOfS0B1>\
+%endfunction

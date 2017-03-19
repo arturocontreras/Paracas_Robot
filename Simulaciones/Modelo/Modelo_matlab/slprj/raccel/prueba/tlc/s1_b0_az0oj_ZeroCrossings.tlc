@@ -1,0 +1,10 @@
+%implements s1_b0_az0oj_ZeroCrossings "C"
+
+%function ZeroCrossings(block, system) Output
+
+%<SLibCG_ZCSV(0, 0, 0, 1, 1, -1, "", 0)> = %<SLibCG_SE(LibGetT())> - %<SLibCG_SE(SLibCGIR_PV(2, 0, 1, 1, "", -1, "", 0))>;
+
+%if !SLibCGSysFcnIsEmptyForTid(CompiledModel.System[0], "ZeroCrossing",0)
+prueba_Synthesized_Atomic_Subsystem_For_Alg_Loop_1_ZC();
+%endif
+%endfunction

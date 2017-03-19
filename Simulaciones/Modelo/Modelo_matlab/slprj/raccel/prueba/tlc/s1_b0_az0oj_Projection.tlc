@@ -1,0 +1,8 @@
+%implements s1_b0_az0oj_Projection "C"
+
+%function Projection(block, system) Output
+
+%if !SLibCGSysFcnIsEmptyForTid(CompiledModel.System[0], "Projection",0)
+prueba_Synthesized_Atomic_Subsystem_For_Alg_Loop_1_Projection();
+%endif
+%endfunction

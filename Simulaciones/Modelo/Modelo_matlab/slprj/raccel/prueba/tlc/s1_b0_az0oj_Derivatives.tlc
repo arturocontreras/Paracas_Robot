@@ -1,0 +1,8 @@
+%implements s1_b0_az0oj_Derivatives "C"
+
+%function Derivatives(block, system) Output
+
+%if !SLibCGSysFcnIsEmptyForTid(CompiledModel.System[0], "Derivative",0)
+prueba_Synthesized_Atomic_Subsystem_For_Alg_Loop_1_Deriv();
+%endif
+%endfunction

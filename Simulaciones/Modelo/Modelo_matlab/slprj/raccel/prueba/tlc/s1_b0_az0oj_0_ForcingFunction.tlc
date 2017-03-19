@@ -1,0 +1,10 @@
+%implements s1_b0_az0oj_0_ForcingFunction "C"
+
+%function ForcingFunction(block, system) Output
+%assign tlcForcingFunctionFcnOfS0B0 = OpaqueTLCBlockFcn("ForcingFunction", 0, 0)
+%assign tlcForcingFunctionFcnOfS0B1 = OpaqueTLCBlockFcn("ForcingFunction", 0, 1)
+
+%<tlcForcingFunctionFcnOfS0B0>\
+
+%<tlcForcingFunctionFcnOfS0B1>\
+%endfunction
